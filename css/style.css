@@ -1,0 +1,384 @@
+
+@charset "utf-8";
+/* CSS Document */
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+background-color:#000;
+	}
+
+header,section,footer,aside,nav,main,article,figure{
+													 display:block;
+													 }
+
+#container{
+	width:960px;
+	margin:0 auto;
+	padding:10px;
+	}
+
+header{
+	width:940px;
+	float:left;
+	
+	background:url(../images/header-bg-X.png),#008ed2;;
+	background-repeat: repeat-x;
+	color:#FFF;
+	padding:10px 10px 10px 10px;
+	}
+	
+.logo{
+		float:left;
+		 width:120px;
+		}
+		
+.menu{
+			float:left;
+			width:940px;
+			  padding-left:30px;
+			  text-align:center;
+			}
+			
+.banner{
+		width:940px;
+		float:left;
+		}
+		
+		
+.wrapper{
+			width:940px;
+			 float:left; 
+			 background-color:#FFF;
+			  padding:10px 20px; 
+			  border-bottom:5px solid #00adf0; 
+			  background-color:#FFF;
+			}
+.content_body{
+			width:630px; 
+			float:left;
+			padding:20px;
+				
+				}
+.content_img{
+			border:5px solid #00adf0;
+			width:200px; 
+			float:left;
+			margin:5px 20px 0px 0px;
+					
+				}
+					
+.content_img2{
+				border:5px solid #00adf0;
+			    width:200px; 
+				float: right; 
+				margin:5px 5px 0px 10px;
+				}
+			
+aside {
+			width:210px;
+			float:left;
+			padding:20px;
+			margin:0px;
+			background-image:url(../images/shade.jpg);
+			background-repeat:no-repeat;
+			}
+a{
+	text-decoration:none; 
+	color:#005aa7;
+	}
+			 
+h1{
+	color: #FFFFFF;
+	font-style: italic;
+	font-size: 30px;
+	line-height: 30px;
+	padding:10px 0px;
+		
+		 }
+		 
+		 
+	h2{
+		color:#00adf0;
+		font-size:24px; 
+		font-style:italic;
+		margin-top:10px;
+		border-bottom: 1px solid #00adf0;
+		}
+		
+		
+	h3{
+		color:#00adf0;
+		font-size:24px; 
+		font-style:italic;
+		margin-top:10px; 
+		border-bottom: 1px solid #00adf0;
+						 
+		 }
+		 
+		 h4{
+			 color:#00adf0;
+		font-size:18px; 
+		
+		
+			 
+			 
+			 }
+				 
+			
+	nav ul{
+			list-style:none;
+			float:left;
+			padding-left:0px;
+			width:100%;
+			margin:0 0 10px 0;
+			text-align:center;
+			}
+				
+	nav ul li{
+			font-size:16px;
+			margin:0 10px;
+			display: inline-block;
+			}
+			
+	nav ul li a{
+			text-decoration:none;
+			color:#FFF;
+			padding:10px;
+			font-size: 14px;
+			height:10px;
+			line-height:10px;
+			border-radius:5px;
+			background:#0a6d94;
+			margin-bottom:10px;
+			}
+					
+	nav ul li a:hover,nav ul li.active a{
+						background-color: #000;
+						color:#FFF;\
+						}
+
+	.submit-btn{
+				background-image:url(../images/login-button.jpg);
+				width:150px;
+				height:48px;
+				border:0px;
+				color:#FFF;
+				cursor:pointer;
+				font-size:18px;
+				font-weight:bold;
+				margin-bottom:10px;
+				padding-left:30px;
+				}
+				
+	.submit-btn:hover{
+				color:red;
+				}
+				
+	.mrg_btm{
+			margin-bottom:10px;
+			border-radius:5px; 
+			width:210px;
+			height:25px;
+			border:1px solid #cccccc;
+			}
+			
+	.img_poster{
+				width:210px;
+				}
+			
+			
+	footer{
+			width:940px;
+			float:left;
+			color:#FFF;
+			background-color:#333333;
+			text-align:center;
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	/*contact form strt*/		
+			
+			
+.text_box{
+	width:200px;
+	height:30px;
+	border:1px solid #CCC;
+	border-radius:5px;
+	}
+
+.tex_align{
+	text-align:right;
+	}
+	
+.button{
+	background:url(../images/btn.png)no-repeat center top;
+	color:#FFF;
+	height:50px;
+	width:150px;
+	line-height:50px;
+	font-size:20px;
+	border:none;
+	}
+	
+.button:hover{
+	background: url(../images/btn-ho.png) no-repeat center top;
+	}
+
+
+table{
+	width:500px;
+	border:0px;
+	padding:10px;
+	color: #999;
+	}
+	
+.cmt_box{
+	height:150px;
+	width:200px;
+	border:1px solid #CCC;
+	border-radius:5px;
+	}
+	
+input[type=text]:focus{
+						background:#9CF;
+						}
+	
+
+/*contact form end*/
+
+
+
+
+/**********************************
+        Responsive layout
+***********************************/
+
+
+@media screen and (max-width:1024px) {
+
+#container {
+	width: 100%;
+	max-width:100%;
+	
+}
+
+footer,header {
+	width: 100%;
+	
+}
+
+.menu{
+	width:100%;}
+.banner{
+	width:100%;}
+
+.wrapper {
+	width: 100%;
+}
+
+.content_body{
+	width:70%;
+	}
+aside{
+	width:30%
+	}	
+	.mrg_btm{
+		width:100%;
+		}
+		
+		
+		
+		
+					
+.text_box{
+	width:100%;
+	}
+
+	
+.button{
+	width:100%;
+	}
+	
+
+table{
+	width:100%;
+	}
+	
+.cmt_box{
+	height:150px;
+	width:100%;
+	}
+	
+input[type=text]:focus{
+						background:#9CF;
+						}
+		
+		
+}
+
+
+@media screen and (max-width:768px) {
+	.logo {
+		float:none;
+		width:auto;
+		margin:0 auto;
+		display:block;
+		}
+		
+		h1{
+			text-align:center;}
+		
+.menu{
+	width:100%;
+	padding:0;
+	}
+	
+	nav ul{
+			width:100%;
+			margin:0;
+			text-align:center;
+			}
+				
+	nav ul li{
+			margin:0;
+			display: block;
+			}
+	nav ul li a{
+			display: block;
+			height:auto;			}
+			
+			
+		
+		
+		.wrapper {
+	width: 100%;
+}
+
+.content_body{
+	width:100%;
+	min-height:0;
+	}
+aside{
+	width:100%;
+	min-height:0;
+	}
+	
+input{
+	display:block;}
+		
+
+}
